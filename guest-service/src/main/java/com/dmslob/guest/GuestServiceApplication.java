@@ -24,7 +24,7 @@ public class GuestServiceApplication {
                 .apis(RequestHandlerSelectors.basePackage("com.dmslob.guest"))
                 .paths(any()).build().apiInfo(new ApiInfo("Guest Service",
                         "A service to provide data access to guests", "1.0.0", null,
-                        new Contact("Dmytro Slobodenyuk", "https://twitter.com/dmytroslob", null), null, null));
+                        new Contact("Dmytro Slobodenyuk", "https://twitter.com/dmslob", null), null, null));
     }
 
     public static void main(String[] args) {

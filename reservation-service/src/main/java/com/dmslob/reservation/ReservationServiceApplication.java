@@ -27,7 +27,7 @@ public class ReservationServiceApplication {
                 .apis(RequestHandlerSelectors.basePackage("com.dmslob.reservation"))
                 .paths(any()).build().apiInfo(new ApiInfo("Reservation Service",
                         "A service to provide data access to reservations", "1.0.0", null,
-                        new Contact("Dmytro Slobodenyuk", "https://twitter.com/dmytroslob", null), null, null));
+                        new Contact("Dmytro Slobodenyuk", "https://twitter.com/dmslob", null), null, null));
     }
 
     public static void main(String[] args) {

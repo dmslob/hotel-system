@@ -29,7 +29,7 @@ public class ReservationBusinessServiceApplication {
                 .apis(RequestHandlerSelectors.basePackage("com.dmslob.business.reservation"))
                 .paths(any()).build().apiInfo(new ApiInfo("Room Reservation Service",
                         "A service to provide business processes for the Room and Reservations domains", "1.0.0", null,
-                        new Contact("Dmytro Slobodenyuk", "https://twitter.com/dmytroslob", null), null, null));
+                        new Contact("Dmytro Slobodenyuk", "https://twitter.com/dmslob", null), null, null));
     }
 
     public static void main(String[] args) {

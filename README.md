@@ -1,5 +1,5 @@
-# hotel-system
-Spring Cloud project
+# hotel_system
+Spring Cloud project example
 
 ## Getting Started
 

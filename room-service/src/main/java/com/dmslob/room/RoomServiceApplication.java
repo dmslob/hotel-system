@@ -24,7 +24,7 @@ public class RoomServiceApplication {
                 .apis(RequestHandlerSelectors.basePackage("com.dmslob.room"))
                 .paths(any()).build().apiInfo(new ApiInfo("Room Service",
                         "A service to provide data access to rooms", "1.0.0", null,
-                        new Contact("Dmytro Slobodenyuk", "https://twitter.com/dmytroslob", null), null, null));
+                        new Contact("Dmytro Slobodenyuk", "https://twitter.com/dmslob", null), null, null));
     }
 
     public static void main(String[] args) {
